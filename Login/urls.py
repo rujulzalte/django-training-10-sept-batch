@@ -5,5 +5,6 @@ urlpatterns = [
     path('homepage/',views.homepage),
     path('index/',views.index),
     path('all-user-data/',views.all_user_data),
+    path('single-user-data/<int:pk>/',views.single_user_data),
     # Add more paths here as per your requirements
 ]
