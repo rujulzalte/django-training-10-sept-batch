@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "Login",
     "form_app",
+    "session_app",
 
     'rest_framework',
 ]
