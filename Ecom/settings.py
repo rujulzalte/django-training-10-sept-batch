@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "form_app",
     "session_app",
     "JWT",
+    "signal_app",
 
     'rest_framework',
 ]
