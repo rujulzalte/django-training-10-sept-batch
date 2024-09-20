@@ -43,8 +43,10 @@ INSTALLED_APPS = [
     "session_app",
     "JWT",
     "signal_app",
+    "channel_app",
 
     'rest_framework',
+    'channels',
 ]
 
 MIDDLEWARE = [
@@ -75,7 +77,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "Ecom.wsgi.application"
+# WSGI_APPLICATION = "Ecom.wsgi.application"
+ASGI_APPLICATION = "Ecom.asgi.application"
 
 
 # Database
